@@ -2,7 +2,7 @@
 int lcm(int,int);
 int main()
 {
-    int x,y;
+    int x,y,z;
     printf("Enter two numbers: \n");
     scanf("%d %d",&x,&y);
     printf("LCM of given numbers is %d\n",lcm(x,y));

@@ -1,14 +1,14 @@
 #include<stdio.h>
-int lcm(int,int);
+int LCM(int,int);
 int main()
 {
-    int x,y,z;
+    int x,y;
     printf("Enter two numbers: \n");
     scanf("%d %d",&x,&y);
-    printf("LCM of given numbers is %d\n",lcm(x,y));
+    printf("LCM of given numbers is %d\n",LCM(x,y));
     return 0;
 }
-int lcm(int x,int y)
+int LCM(int x,int y)
 {
     int i,s;
     s=x<y?x:y;

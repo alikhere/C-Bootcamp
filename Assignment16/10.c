@@ -39,7 +39,7 @@ int main()
         count=0;
     }  
     if(k)
-    printf("R0w %d has maximum no of 1s:\n",l);
+    printf("Row %d has maximum no of 1s:\n",l);
     else
     printf("There is no 1s in given matrix:\n");
 return 0;

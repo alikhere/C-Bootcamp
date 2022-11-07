@@ -3,6 +3,8 @@
     "files.associations": {
         "3.C": "cpp",
         "10.C": "cpp",
-        "ncurses.h": "c"
+        "ncurses.h": "c",
+        "iostream": "cpp",
+        "ostream": "cpp"
     }
 }
